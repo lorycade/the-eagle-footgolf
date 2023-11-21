@@ -1,0 +1,101 @@
+{
+  "formInputs": [
+    {
+      "key": "name",
+      "component": "input",
+      "label": "Nome",
+      "placeholder": "Inserisci nome",
+      "fullWidth": true
+    },
+    {
+      "key": "email",
+      "component": "input",
+      "inputType": "email",
+      "label": "Email",
+      "placeholder": "Inserisci email",
+      "required": true
+    },
+    {
+      "key": "gender",
+      "component": "radio",
+      "required": true,
+      "label": "Genere",
+      "options": [
+        {
+          "value": "male",
+          "label": "Maschio"
+        },
+        {
+          "value": "female",
+          "label": "Femmina"
+        }
+      ]
+    },
+    {
+      "key": "age",
+      "component": "input",
+      "label": "Età",
+      "inputType": "number",
+      "placeholder": "Seleziona età"
+    },
+    {
+      "key": "height",
+      "component": "select",
+      "label": "Altezza",
+      "placeholder": "Seleziona altezza",
+      "options": [
+        {
+          "value": "160",
+          "label": "Piccolo - (160cm)"
+        },
+        {
+          "value": "170",
+          "label": "Medio - (170cm)"
+        },{
+          "value": "180",
+          "label": "Grande - (180cm)"
+        }
+      ]
+    },
+    {
+      "key": "password",
+      "component": "input",
+      "inputType": "password",
+      "label": "Password",
+      "placeholder": "Inserisci password",
+      "required": true
+    },
+    {
+      "key": "passwordConfirm",
+      "component": "input",
+      "inputType": "password",
+      "label": "Conferma password",
+      "placeholder": "Conferma password password",
+      "required": true
+    },
+    {
+      "key": "terms",
+      "component": "checkbox",
+      "label": "Accetta termini e condizioni",
+      "required": true
+    },
+    {
+      "key": "news",
+      "component": "checkbox",
+      "label": "Iscrizione newsletter",
+      "required": false
+    },
+    {
+      "key": "birthday",
+      "component": "single-date",
+      "label": "Data di nascita",
+      "required": true
+    },
+    {
+      "key": "range",
+      "component": "range-date",
+      "labelStart": "Check in",
+      "labelEnd": "Check out"
+    }
+  ]
+}

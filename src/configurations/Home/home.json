@@ -1,0 +1,10 @@
+{
+  "formInputs": [
+    {
+      "key": "post_text",
+      "component": "input",
+      "placeholder": "A cosa stai pensando...",
+      "fullWidth": true
+    }
+  ]
+}
